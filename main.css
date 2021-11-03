@@ -1,0 +1,193 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 95px;
+  height: 25px;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  border-radius: 14px;
+}
+
+.add:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+.zagol {
+  width: 100%;
+}
+
+.text {
+  height: 200px;
+  width: 100%;
+}
+
+.over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.939);
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.over .zapis {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 275px;
+}
+
+.over2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.939);
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  height: 100%;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.zapis2 {
+  margin: 0 auto;
+  width: 60%;
+  /* border: 3px solid green; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  height: 275px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.okbutt, .addbutt {
+  width: 85px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 14px;
+  background-color: #fff;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.okbutt:hover, .addbutt:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+.addbutt {
+  width: 85px;
+}
+
+.text2, .tex2, .text, .tex {
+  width: 100%;
+  border: 1px solid #000;
+  margin-bottom: 2px;
+}
+
+.zagol2, .zag2, .zag, .zagol {
+  width: 100%;
+  margin-bottom: 1px;
+  border: 1px solid #000;
+}
+
+.zag2, .zag {
+  margin-bottom: 1px;
+}
+
+.zagol2, .zagol {
+  border-radius: 14px;
+  padding: 3px;
+  width: 100%;
+}
+
+.text2, .text {
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+  padding: 3px;
+}
+
+.chapter-item {
+  padding: 7px;
+  border: 1px solid black;
+  width: 70%;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+}
+
+.idi {
+  display: none;
+  margin: 0px 0px 0px 0px;
+}
+/*# sourceMappingURL=main.css.map */
