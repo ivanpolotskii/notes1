@@ -170,7 +170,7 @@ html, body {
 }
 
 .chapter-item {
-  padding: 7px;
+  padding: 7px 7px 7px 0;
   border: 1px solid black;
   width: 70%;
   height: 30px;
@@ -184,6 +184,29 @@ html, body {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 700;
+  display: flex;
+}
+
+.chapter-item .note-item {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 29px;
+  padding: 7px;
+}
+
+.chapter-item .note-item:hover {
+  cursor: pointer;
+}
+
+.chapter-item .peregorod {
+  border: 1px solid rgba(0, 0, 0, 0.248);
+  height: 20px;
+  margin: 0 10px 0 0px;
+}
+
+.chapter-item i:hover {
+  cursor: pointer;
 }
 
 .idi {
