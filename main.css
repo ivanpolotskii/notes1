@@ -24,6 +24,7 @@ html, body {
   -webkit-transition: 200ms;
   transition: 200ms;
   border-radius: 14px;
+  text-align:center;
 }
 
 .add:hover {
